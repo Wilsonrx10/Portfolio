@@ -1,0 +1,18 @@
+.menu {
+    display: flex;
+    width: 90px;
+    padding: 10px;
+    color: white;
+    height: 300px;
+    flex-direction: column;
+    background-color: black;
+    border-radius: 6px;
+}
+.menu li {
+    padding: 5px;
+}
+.menu li:hover {
+    background-color: yellow;
+    color: #494949;
+    cursor: pointer;
+}

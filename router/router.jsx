@@ -1,17 +1,13 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from '../src/components/pages/Home'
-import Contato from '../src/components/pages/Contact'
-import Projects from '../src/components/pages/Projects'
-import Login from '../src/components/pages/login'
+import Home from '../src/pages/home'
+import About from '../src/pages/about'
 
 function Roteamento() {
     return (
         <Router>
             <Routes>
-                <Route path="/" element={<Login/>}></Route>
-                <Route path="/home" element={<Home/>}></Route>
-                <Route path="/contato" element={<Contato/>}></Route>
-                <Route path="/projects" element={<Projects/>}></Route>
+                <Route path="/" element={<Home/>}></Route>
+                <Route path="/porfolio" element={<About/>}></Route>
             </Routes>
         </Router>
     )

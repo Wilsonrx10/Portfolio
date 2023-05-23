@@ -1,7 +1,12 @@
+import { useState } from "react"
+import menuContext from "./contexts/menuContext"
+import Home from "./pages/home"
 function App() {
+  const [pagePreview, setpagePreview] = useState(false);
   return (
     <>
-       <h1>Portfolio</h1>
+      <menuContext.Provider value={{page: 'teste'}}/>
+       <Home/>
     </>
   )
 }
