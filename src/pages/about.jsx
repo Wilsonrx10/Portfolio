@@ -1,7 +1,9 @@
 function About() {
     return (
         <>
-        
+          <div className="contact">
+             <h2>Contatos</h2>             
+          </div>
         </>
     )
 }

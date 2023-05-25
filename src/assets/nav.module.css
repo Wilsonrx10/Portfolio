@@ -2,13 +2,15 @@
     display: flex;
     width: 90px;
     padding: 10px;
-    color: white;
-    height: 300px;
+    color: black;
+    height: 280px;
     flex-direction: column;
-    background-color: black;
-    border-radius: 6px;
+    background-color: white;
+    border-radius: 7px;
 }
 .menu li {
+    list-style: none;
+    margin-bottom: 30px;
     padding: 5px;
 }
 .menu li:hover {

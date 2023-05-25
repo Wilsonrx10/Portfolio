@@ -1,0 +1,10 @@
+.principal {
+    display: grid;
+    grid-template-columns: 90% 10%;
+}
+.principal .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}

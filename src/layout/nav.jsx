@@ -1,15 +1,37 @@
 import styles from '../assets/nav.module.css'
-function nav() {
+
+const menus = [
+  {
+    title:'Home',
+    icon:''
+  },
+  {
+    title:'Portfolio',
+    icon:''
+  },
+  {
+    title:'Contato',
+    icon:''
+  },
+  {
+    title:'Sobre',
+    icon:''
+  }
+];
+
+function Nav() {
     return (
         <>
           <ul className={styles.menu}>
-            <li>Home</li>
-            <li>Portfolio</li>
-            <li>Contato</li>
-            <li>Sobre</li>
+            {
+              menus.map((menu) => (
+                <li>{menu.title}</li>
+              ))
+            }
+            
           </ul>
         </>
     )
 }
 
-export default nav
+export default Nav
