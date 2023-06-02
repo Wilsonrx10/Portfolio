@@ -1,0 +1,17 @@
+.principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.principal .content {
+    justify-content: center;
+    align-items: center;
+}
+.content h2 {
+    color: white;
+    font-size: 60px;
+}
+.content p {
+    color:rgb(228, 228, 228);
+}

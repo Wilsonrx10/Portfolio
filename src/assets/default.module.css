@@ -1,6 +1,10 @@
 .principal {
+    height: 100vh;
     display: grid;
     grid-template-columns: 90% 10%;
+}
+.principal .container {
+    background-color: black;
 }
 .principal .menu {
     display: flex;

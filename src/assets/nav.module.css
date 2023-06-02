@@ -1,20 +1,36 @@
 .menu {
-    display: flex;
-    width: 90px;
-    padding: 10px;
-    color: black;
-    height: 280px;
-    flex-direction: column;
-    background-color: white;
-    border-radius: 7px;
+  display: flex;
+  width: 90px;
+  color: black;
+  height: 280px;
+  flex-direction: column;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
 }
 .menu li {
-    list-style: none;
-    margin-bottom: 30px;
-    padding: 5px;
+  color: rgb(46, 46, 46);
+  list-style: none;
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  padding: 5px;
 }
 .menu li:hover {
-    background-color: yellow;
-    color: #494949;
-    cursor: pointer;
+  width: 100%;
+  border-radius: 6px;
+  background-color: rgb(255, 214, 33);
+  color: #494949;
+  cursor: pointer;
+}
+.active {
+  width: 100%;
+  border-radius: 6px;
+  background-color: rgb(255, 214, 33);
+  color: #494949;
+  cursor: pointer;
 }

@@ -1,17 +1,13 @@
-import { useState } from "react"
-import { useContext } from 'react';
-import menuContext from '../src/contexts/menuContext'
-import LayoutDefault from "./layout/LayoutDefault";
-import Home from "./components/home";
+import Roteamento from "../router/router";
+import { PageProvider } from "../src/contexts/pageContext";
+
 
 function App() {
-  const [pagePreview, setpagePreview] = useState(false);
   return (
     <>
-      <menuContext.Provider value={{page: setpagePreview}}/>
-      <LayoutDefault>
-          <Home/>
-      </LayoutDefault>
+    <PageProvider>
+      <Roteamento/>
+    </PageProvider>
     </>
   )
 }

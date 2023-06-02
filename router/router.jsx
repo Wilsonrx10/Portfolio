@@ -7,7 +7,7 @@ function Roteamento() {
         <Router>
             <Routes>
                 <Route path="/" element={<Home/>}></Route>
-                <Route path="/porfolio" element={<About/>}></Route>
+                <Route path="/sobre" element={<About/>}></Route>
             </Routes>
         </Router>
     )

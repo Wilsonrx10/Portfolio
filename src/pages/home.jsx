@@ -1,23 +1,23 @@
 import { useContext, useEffect } from "react";
 import { PageContext } from "../contexts/pageContext";
 import LayoutDefault from "../layout/LayoutDefault";
-import AboutHome from "../components/about";
+import IndexHome from "../components/home/index";
 
-function About() {
+function Home() {
 
   const {ActivePage} = useContext(PageContext)
 
   useEffect(()=>{
-    ActivePage('Sobre');
+    ActivePage('Home');
   },[])
-
+  
     return (
         <>
           <LayoutDefault>
-              <AboutHome/>
+              <IndexHome/>
           </LayoutDefault>
         </>
     )
 }
 
-export default About
+export default Home

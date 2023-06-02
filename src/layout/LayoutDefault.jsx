@@ -1,5 +1,5 @@
 import style from '../assets/default.module.css'
-import Nav from './nav'
+import NavBar from './NavBar'
 
 function LayoutDefault({children}) {
     return (
@@ -8,7 +8,7 @@ function LayoutDefault({children}) {
             {children}
        </div>
        <div className={style.menu}>
-         <Nav/>
+         <NavBar/>
        </div>
     </div>
     )

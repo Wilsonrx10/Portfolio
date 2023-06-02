@@ -1,7 +1,7 @@
 import ButtonHome from './ButtonHome';
 import styles from '../../assets/home/home.module.css'
 
-const Home = () => {
+const IndexHome = () => {
     return (
         <div className={styles.home}>
           <ButtonHome/>
@@ -9,4 +9,4 @@ const Home = () => {
     )
 }
 
-export default Home
+export default IndexHome
